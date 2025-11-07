@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PEMM &mdash; Privacy Engineering Maturity Model</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <span class="hero-eyebrow">Privacy engineering maturity model</span>
+      <h1>PEMM &mdash; Align privacy work with structured maturity levels</h1>
+      <p>
+        This interactive reference summarizes the Privacy Engineering Maturity Model (PEMM). Each
+        activity describes how privacy work evolves from ad-hoc practices (Level&nbsp;1) to repeatable
+        and automated capabilities (Level&nbsp;3). Use this page to understand expectations, discuss
+        roadmaps, or review coverage of your Secure Development Lifecycle (SDL).
+      </p>
+    </header>
+    <main>
+      <section>
+        <h2>How to read this model</h2>
+        <p>
+          Every activity contains three maturity levels. The narrative explains the intent for that
+          level, while the quality criteria list objective signals that the threshold has been met.
+          Start by identifying your current practices, then use the criteria to define concrete next
+          steps for advancing privacy engineering across the SDL.
+        </p>
+        <div class="info-grid">
+          <div class="legend-card">
+            <div class="legend-chip">
+              <svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+                <rect width="8" height="8" rx="1" fill="#f66e3c" />
+              </svg>
+              Level 1 &mdash; Emerging
+            </div>
+            Privacy is addressed manually and typically in response to the most critical risks.
+          </div>
+          <div class="legend-card">
+            <div class="legend-chip">
+              <svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+                <rect width="8" height="8" rx="1" fill="#f3c341" />
+              </svg>
+              Level 2 &mdash; Managed
+            </div>
+            Processes become systematic and benefit from dedicated roles, checklists, and semi-automated tooling.
+          </div>
+          <div class="legend-card">
+            <div class="legend-chip">
+              <svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+                <rect width="8" height="8" rx="1" fill="#2cb35c" />
+              </svg>
+              Level 3 &mdash; Integrated
+            </div>
+            Privacy is embedded in day-to-day delivery, with automation, continuous monitoring, and proactive improvements.
+          </div>
+        </div>
+      </section>
+
+      <section class="activities" data-activities>
+        <noscript>Please enable JavaScript to explore the maturity activities.</noscript>
+      </section>
+    </main>
+
+    <script src="activities.js"></script>
+    <script>
+      const activitiesData = window.activities || [];
+      const container = document.querySelector("[data-activities]");
+
+      const createEl = (tag, className, text) => {
+        const element = document.createElement(tag);
+        if (className) {
+          element.className = className;
+        }
+        if (typeof text === "string") {
+          element.textContent = text;
+        }
+        return element;
+      };
+
+      const renderLevel = (level) => {
+        const card = createEl("div", `level-card level-${level.number}`);
+        const levelTitle = createEl("div", "level-title");
+        levelTitle.append(
+          createEl("span", null, `Level ${level.number}`),
+          createEl("strong", null, level.headline)
+        );
+
+        const description = createEl("p", null, level.description);
+        const qualityTitle = createEl("p", "quality-title", "Quality criteria");
+        const list = createEl("ul");
+        level.criteria.forEach((item) => {
+          list.append(createEl("li", null, item));
+        });
+
+        card.append(levelTitle, description, qualityTitle, list);
+        return card;
+      };
+
+      const renderActivity = (activity, index) => {
+        const article = createEl("article", "activity");
+        article.style.animationDelay = `${index * 0.08}s`;
+        const header = createEl("header");
+        header.append(
+          createEl("h3", null, activity.title),
+          createEl("p", "activity-summary", activity.summary)
+        );
+
+        const levelsWrapper = createEl("div", "levels");
+        activity.levels.forEach((level) => {
+          levelsWrapper.append(renderLevel(level));
+        });
+
+        article.append(header, levelsWrapper);
+        return article;
+      };
+
+      if (!container) {
+        console.error("Activities container not found in the document.");
+      } else {
+        container.innerHTML = "";
+        activitiesData.forEach((activity, index) => {
+          container.append(renderActivity(activity, index));
+        });
+      }
+    </script>
+  </body>
+</html>
