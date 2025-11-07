@@ -22,8 +22,8 @@ It shows a hero explanation, a legend for maturity levels, and a card for each p
 The page showcases 15 privacy engineering disciplines ranging from “Consider how to integrate Privacy Engineering in the Development Process” to “Decommissioning of Personal Data.”  
 For each discipline, visitors can review three maturity levels:
 
-- **Level 1 – Emerging:** ad-hoc practices that satisfy only the most critical risks.
-- **Level 2 – Managed:** structured processes, dedicated roles, and repeatable reviews.
-- **Level 3 – Integrated:** automation, continuous monitoring, and proactive evolution.
+- **Level 1:** ad-hoc practices that satisfy only the most critical risks.
+- **Level 2:** structured processes, dedicated roles, and repeatable reviews.
+- **Level 3:** automation, continuous monitoring, and proactive evolution.
 
 The complete dataset—including titles, summaries, and level-by-level quality criteria—is stored in `activities.js`. The script exposes the array on `window.activities`, which `index.html` reads to render the cards dynamically.
