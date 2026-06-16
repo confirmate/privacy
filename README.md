@@ -3,6 +3,7 @@
 This repository gathers every privacy research output produced within the CONFIRMATE project, an EU-cofunded initiative supported by the European Cybersecurity Competence Centre (ECCC). The goal is to keep the project's privacy methodologies, models, and supporting material in a single, openly accessible place.
 
 ## Repository contents
+- `classification`: supplementary material on the classification of privacy threat modeling frameworks, including framework justifications and classification dimensions.
 - `maturity-model-pemm`: privacy engineering maturity model material, including research notes and supporting assets.
 - Additional directories and documents will appear here as the CONFIRMATE privacy workstream evolves.
 
