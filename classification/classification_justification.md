@@ -23,7 +23,7 @@ This document provides per-framework justifications for the classification decis
 
 ## Per-Framework Justifications
 
-### 1. LINDDUN [7]
+### 1. LINDDUN
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -38,7 +38,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 2. LINDDUN GO [33]
+### 2. LINDDUN GO
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -53,7 +53,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 3. MAP / XCOMPASS [8]
+### 3. MAP / XCOMPASS
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -68,7 +68,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 4. PANOPTIC [26]
+### 4. PANOPTIC
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -83,7 +83,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 5. PITA [29]
+### 5. PITA
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -98,7 +98,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 6. IDPA [17]
+### 6. IDPA
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -113,7 +113,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 7. PROPAN [4]
+### 7. PROPAN
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -128,7 +128,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 8. QTMM [18]
+### 8. QTMM
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -143,7 +143,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 9. Elevation of Privacy [1]
+### 9. Elevation of Privacy
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -158,7 +158,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 10. UsersFirst [30]
+### 10. UsersFirst
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -173,7 +173,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 11. Design Science Approach PIA [21]
+### 11. Design Science Approach PIA
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -188,7 +188,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 12. LINE3DU [5]
+### 12. LIINE3DU
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -203,7 +203,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 13. PTMF [5]
+### 13. PTMF
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -218,7 +218,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 14. TSPTM for ENS [11]
+### 14. TSPTM for ENS
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -233,7 +233,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 15. ACPTM [12]
+### 15. ACPTM
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -248,7 +248,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 16. IoT_PTM [15]
+### 16. IoT_PTM
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -263,7 +263,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 17. Rule-based GDPR Compliance Model [19]
+### 17. Rule-based GDPR Compliance Model
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -278,7 +278,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 18. DeLP-based GDPR Compliance Model [19]
+### 18. DeLP-based GDPR Compliance Model
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -293,7 +293,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 19. PTM for Online Social Networks [31]
+### 19. PTM for Online Social Networks
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -308,7 +308,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 20. PTM for Data Portability in SNAs [32]
+### 20. PTM for Data Portability in SNAs
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -323,7 +323,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 21. Privacy Threat Model in Lifelogging [10]
+### 21. Privacy Threat Model in Lifelogging
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -338,7 +338,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 22. Attack Tree for VANET Location Privacy [23]
+### 22. Attack Tree for VANET Location Privacy
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -353,7 +353,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 23. EU PIA Framework for RFID [9]
+### 23. EU PIA Framework for RFID
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -368,7 +368,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 24. BSI PIA Guideline for RFID [22]
+### 24. BSI PIA Guideline for RFID
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -383,7 +383,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 25. Plot4AI [3]
+### 25. Plot4AI
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -398,7 +398,7 @@ This document provides per-framework justifications for the classification decis
 
 ---
 
-### 26. Taiga [24]
+### 26. Taiga
 
 | Dimension | Category | Justification |
 |-----------|----------|---------------|
@@ -419,18 +419,18 @@ During independent coding, the following cases required discussion to reach cons
 
 | Framework | Dimension | Disagreement | Resolution |
 |-----------|-----------|-------------|------------|
-| LINDDUN GO [33] | PC | Comprehensive vs. Business-Constrained | Business-Constrained – Vague, broader than LINDDUN, but no intention is addressed. |
-| LINDDUN GO [33] | Tool | None vs. Tool Support | Tool Support – Online cards are counted as tool support. |
-| IDPA [17] | MS | None vs. Guidance-Based | Guidance-Based – Defines very rough strategies. |
-| PROPAN [4] | Entities | U vs. O, U | U – ProPAn is only part of the system by definition, thus cannot have an outsider. |
-| PROPAN [4] | MS | Guidance-Based vs. None | None – Only in case study itself, therefore no direct guidance that works across frameworks. |
-| Design Science Approach PIA [21] | Entities | P, T, O, U vs. P | P – One could theoretically reformulate other provided targets, but they are not explicitly supported. |
-| Design Science Approach PIA [21] | PII | Restricted vs. Agnostic | Agnostic – PII is not defined explicitly. |
-| Rule-based GDPR Compliance Model [19] | Entities | P, T, O vs. P, O | P, O – Following the GDPR only the provider is responsible for noncompliance; provider responsible for third party is implicit. |
-| Rule-based GDPR Compliance Model [19] | TIS | None vs. Knowledge Base | Knowledge Base – Knowledge not ready to use but initial efforts persistent. |
-| DeLP-based GDPR Compliance Model [19] | Entities | P, T, O vs. P, O | P, O – Same reasoning as Rule-based model above. |
-| DeLP-based GDPR Compliance Model [19] | MS | Guidance-Based vs. None | None – Same reasoning as Rule-based model above. |
-| DeLP-based GDPR Compliance Model [19] | TIS | None vs. Knowledge Base | Knowledge Base – Same reasoning as Rule-based model above. |
-| EU PIA Framework for RFID [9] | PC | Comprehensive vs. Business-Constrained | Business-Constrained – User rights and consent from the user; does not question intended functionality. |
-| BSI PIA Guideline for RFID [22] | Entities | P, T, O, U vs. P | P – Theoretically allows extension, but explicitly only P is mentioned. |
-| Plot4AI [3] | PC | Vulnerability-Centric vs. Business-Constrained | Business-Constrained – Oriented on LINDDUN Go, more than vulnerabilities; regulatory compliance addressed. |
+| LINDDUN GO | PC | Comprehensive vs. Business-Constrained | Business-Constrained – Vague, broader than LINDDUN, but no intention is addressed. |
+| LINDDUN GO | Tool | None vs. Tool Support | Tool Support – Online cards are counted as tool support. |
+| IDPA | MS | None vs. Guidance-Based | Guidance-Based – Defines very rough strategies. |
+| PROPAN | Entities | U vs. O, U | U – ProPAn is only part of the system by definition, thus cannot have an outsider. |
+| PROPAN | MS | Guidance-Based vs. None | None – Only in case study itself, therefore no direct guidance that works across frameworks. |
+| Design Science Approach PIA | Entities | P, T, O, U vs. P | P – One could theoretically reformulate other provided targets, but they are not explicitly supported. |
+| Design Science Approach PIA | PII | Restricted vs. Agnostic | Agnostic – PII is not defined explicitly. |
+| Rule-based GDPR Compliance Model | Entities | P, T, O vs. P, O | P, O – Following the GDPR only the provider is responsible for noncompliance; provider responsible for third party is implicit. |
+| Rule-based GDPR Compliance Model | TIS | None vs. Knowledge Base | Knowledge Base – Knowledge not ready to use but initial efforts persistent. |
+| DeLP-based GDPR Compliance Model | Entities | P, T, O vs. P, O | P, O – Same reasoning as Rule-based model above. |
+| DeLP-based GDPR Compliance Model | MS | Guidance-Based vs. None | None – Same reasoning as Rule-based model above. |
+| DeLP-based GDPR Compliance Model | TIS | None vs. Knowledge Base | Knowledge Base – Same reasoning as Rule-based model above. |
+| EU PIA Framework for RFID | PC | Comprehensive vs. Business-Constrained | Business-Constrained – User rights and consent from the user; does not question intended functionality. |
+| BSI PIA Guideline for RFID | Entities | P, T, O, U vs. P | P – Theoretically allows extension, but explicitly only P is mentioned. |
+| Plot4AI | PC | Vulnerability-Centric vs. Business-Constrained | Business-Constrained – Oriented on LINDDUN Go, more than vulnerabilities; regulatory compliance addressed. |
